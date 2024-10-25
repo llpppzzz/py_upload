@@ -4,9 +4,10 @@
 @File    : logs.py
 @IDE: PyCharm
 """
-import logging
-from logging.handlers import TimedRotatingFileHandler
 import os
+import logging
+
+from logging.handlers import TimedRotatingFileHandler
 
 
 def config_log(is_debug=False, when="D"):
